@@ -1,0 +1,17 @@
+:root{
+    --lightblue: #5d7bc8;
+    --blue: #4664b2;
+    --yellow: #e6d72b;
+    --black: #252429;
+    --white: #f9f9ec;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{        
+    /* overflow: hidden; */
+    background-color: var(--white);
+}

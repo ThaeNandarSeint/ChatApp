@@ -1,0 +1,104 @@
+.wrapper{
+    width: 440px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--blue);
+}
+.wrapper .title{
+    background: var(--blue);
+    line-height: 60px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.wrapper form{
+    padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper form .row input, .login-btn{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+form .row input:focus{
+    border-color: var(--blue);
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 66, 188, 0.25);
+}
+.wrapper form .row .row-i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    background: var(--blue);
+    border: 1px solid var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 5px 0 0 5px;
+}
+.wrapper form .pass{
+    margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 17px;
+}
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+.login-btn{
+    padding-left: 0px;
+    background: var(--blue);
+    border: 1px solid var(--blue);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+
+    /* width: 100%; */
+    height: 100%;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.wrapper form .signup-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.wrapper form .signup-link a{
+    color: var(--blue);
+    text-decoration: none;
+}
+form .signup-link a:hover{
+    text-decoration: underline;
+}
+form .btn input:hover{
+    /* background: #12876f; */
+}
+
+.row{
+    position: relative;
+}
+.row-eye{
+    position: absolute;
+    top: 17px;
+    right: 10px
+}
+.row-eye >*{
+    transform: scale(1.3);
+}

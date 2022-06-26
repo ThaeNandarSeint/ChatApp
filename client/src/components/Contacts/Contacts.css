@@ -1,0 +1,141 @@
+.chate-liste{
+    width: 40%;
+    height: 100%;
+    background: #514685;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.m-info{
+    margin-top: 20px;
+    position: relative;
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-info .avatar{
+margin-left: 10px;
+}
+.p-info{
+    position: absolute;
+    right: 15%;
+    color:#fff;
+}
+.p-info h3{
+    font-weight: 100;
+}
+.p-info span{
+    font-size: 15px;
+    color: rgb(233,233,233);
+}
+.icon{
+    position: relative;
+    margin-right: 10px;
+}
+.icon i{
+    position: absolute;
+    bottom: 30px;
+    right: -35%;
+    color: rgb(233,233,233);
+    cursor: pointer;
+}
+.search-box{
+    width: 90%;
+    height: 1rem;
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+
+}
+.search-box i{
+margin-right: 20px;
+color: white;
+font-size: 14px;
+}
+.search-box input{
+    font-size: 16px;
+    width: 70%;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(233,233,233);
+
+}
+.search-box input::placeholder{
+    color:  rgb(199, 199, 199);
+}
+.ms-a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+}
+.ms-a .avatar{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.mesg-info{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.ms-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sender-name{
+    color: white;
+    letter-spacing: 1px;
+
+}
+.time{
+    color: #a5a5a5;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.time span{
+    color: black;
+    border-radius: 100%;
+    margin: 10px;
+}
+.action span{
+    font-size: 12px;
+    color:#a5a5a5;
+}
+.ms-active{
+    padding: 0px 5px;
+    background: #f8f403;
+    border-radius: 100%;
+    font-size: 10px;
+}
+.new-chate{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #34debb;
+    position: absolute;
+    border-radius: 100%;
+    bottom: 8px;
+    right: 12px;
+    cursor: pointer;
+    box-shadow: 2px 1px 29px -8px rgba(52,222,187,1);
+    
+}
+.new-chate span{
+    font-size: 2rem;
+    color: white;
+}
+.chat-active{
+    background:#332869 ;
+}
+.last-chate{
+    opacity: .5;
+}
